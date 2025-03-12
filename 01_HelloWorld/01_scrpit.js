@@ -11,3 +11,11 @@ console.log('100ag') //string
 //number to string
 console.log('a'+ 100)
 
+let username = 'ram'
+let age = 20. 
+let userIntro = 'Hy i am ' + username + '. '+ 'My age is '+ age 
+const lastname = 'patel'
+{var usName = 'ram' } // global variable
+{let usName = 'patel'
+    console.log(usName) // local variable 
+}
