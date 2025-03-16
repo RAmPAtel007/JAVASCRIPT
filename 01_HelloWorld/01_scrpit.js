@@ -19,3 +19,9 @@ const lastname = 'patel'
 {let usName = 'patel'
     console.log(usName) // local variable 
 }
+//dialog box 
+// alert("haan bhai aa gya...")
+confirm("are you sure.?")
+const pmt = prompt("What is your name..?")
+
+
