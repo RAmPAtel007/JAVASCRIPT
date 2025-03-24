@@ -6,6 +6,7 @@
 //     city : 'Indore'
 // }
 
+let user = 'Raj'
 const myName = 'Raju'
 
 const userName1 = ''
@@ -51,3 +52,16 @@ console.log(user3.address.moreDetils.weather)
 
 
 //note there is 3 objects of different adresses in memory of named user3 , address and moredetails 
+
+// deletion 
+delete user2.firstname
+console.log(user2)
+
+Object.seal(user2) // no addition no deletion can be done on object user 2
+//but we can change the existing properties 
+// user2['Last - Name']= "palsahab" //changed 
+
+Object.freeze(user2) // no add no deletion no modify 
+
+//findind the key in object 
+console.log('mobilenumber' in user3 ) //give false 
