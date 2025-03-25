@@ -14,3 +14,8 @@ console.log(mulArray[1][1])
 
 const tiktoc = [['cross', null , null] , [ null , null, 'circle'],['circle', null , 'cross']]
 console.log(tiktoc)
+
+
+let num = 2 
+num+=2 
+console.log(num)
